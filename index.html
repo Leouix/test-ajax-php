@@ -7,21 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS Ajax PHP</title>
 
-
-
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-
 
 </head>
 <body>
 
-<form id="form-data" action="includes/file.php">
+<form id="form-data" >
     <input type="text" name="text_input">
     <textarea name="message_field" id="message-field" cols="30" rows="10"></textarea>
     <input type="submit" value="Send me!">
 </form>
 
+<style>
+    form > * {
+        display: block;
+    }
+</style>
+
 <script src="js/script.js"></script>
+
 </body>
 </html>
